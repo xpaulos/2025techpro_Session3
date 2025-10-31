@@ -17,7 +17,7 @@ def create_random_name(name):
 # --- How to use the function ---
 
 # 1. Provide the name you want to use
-your_name = "Eleftetherios Kokkinow"
+your_name = "Eleftetherios Kokkinos"
 
 # 2. Call the function and store the result
 new_name = create_random_name(your_name)
