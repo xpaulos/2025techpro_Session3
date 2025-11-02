@@ -3,3 +3,6 @@ __pycache__/
 *.py[codz]
 # Codesandbox files
 .Codesandbox
+# Flask stuff:
+instance/
+.webassets-cache
