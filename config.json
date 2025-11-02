@@ -1,5 +1,6 @@
 {
     "texts": [
+        "Apple", "Banana", "Vasso", "Date", "Elderberry",
         "Apple", "Banana", "Cherry", "Date", "Dimitris",
         "Fig", "Grape", "Honeydew", "Indian Fig", "Jackfruit",
         "Apple", "Banana", "Cherry", "Date", "Elderberry",
@@ -12,3 +13,4 @@
         "Zucchini", "Apricot", "Blackberry", "Cantaloupe", "Dragonfruit"
     ]
 }
+
