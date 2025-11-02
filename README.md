@@ -37,7 +37,7 @@ Check your machine connection with your github account ---> `ssh -T git@github.c
 
 # Fork the repository you would like to contribute
 Go to https://github.com/xpaulos/2025techpro_Session3 and click fork <br>  
-Go back to your account and you should see a copy of the original repository into your account.
+Go back to your account and you should see a copy of the original repository into your account. <br>
 Go to your Ubuntu terminal and create a folder named colorssq under your home directory ---> `mkdir colorssq` <br>
 Clone the forked repository from your account in the directory colorssq using the ssh command allocated in the green "code" button in your account github repository <br>
 
