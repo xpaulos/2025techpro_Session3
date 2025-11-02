@@ -1,9 +1,3 @@
-# 2025techpro_Session3
-
-## Github Playground
-
-=======
-
 ### Code Explanation
 
 A Python script using the Flask web framework that will generate a webpage with 30 squares, each filled with a unique color. The script uses a predefined list of 30 specific hex color codes. The colors are stored in a list variable named colors. Each square has also a unique name of a fruit. The text for each square is defined in a separate config.json file and is loaded by the Flask application.
