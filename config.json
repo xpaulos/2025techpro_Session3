@@ -1,11 +1,34 @@
 {
-    "texts": [
-        "Apple", "Daniel", "Cherry", "Date", "Elderberry",
-        "Fig", "Grape", "Honeydew", "Indian Fig", "Jackfruit",
-        "Kiwi", "Lemon", "Mango", "Ilias", "Olive",
-        "Papaya", "Quince", "Raspberry", "Strawberry", "Tangerine",
-        "Panos", "Vanilla", "Watermelon", "Xigua", "Yellow Passion Fruit",
-        "Zucchini", "Apricot", "Blackberry", "Cantaloupe", "Dragonfruit"
-    ]
+  "texts": [
+    "Apple",
+    "Banana",
+    "Cherry",
+    "Date",
+    "Elderberry",
+    "Fig",
+    "Grape",
+    "Honeydew",
+    "Indian Fig",
+    "Jackfruit",
+    "Kiwi",
+    "Lemon",
+    "Mango",
+    "Nectarine",
+    "Olive",
+    "Papaya",
+    "Quince",
+    "Raspberry",
+    "Strawberry",
+    "Tangerine",
+    "Ugli Fruit",
+    "Vanilla",
+    "Watermelon",
+    "Xigua",
+    "Yellow Passion Fruit",
+    "Zucchini",
+    "Apricot",
+    "Blackberry",
+    "Cantaloupe",
+    "Dragonfruit"
+  ]
 }
-
