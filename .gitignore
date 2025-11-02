@@ -1,0 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+# Codesandbox files
+.Codesandbox
+# Flask stuff:
+instance/
+.webassets-cache
