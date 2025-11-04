@@ -19,7 +19,7 @@ Verify installation flask --version<br>
 
 # Configure your git global set up<br>
 
-Check your git global set up ---> git config list<br>
+Check your git global set up ---> git config --list<br>
 If not already match your username and email with the one you have created for github <br>
 `git config --global user.name "your username"`<br>
 `git config --global user.email " your email address"`<br>
