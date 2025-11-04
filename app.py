@@ -8,7 +8,7 @@ def squares():
     # 1. Define the list of fixed hex color codes
     colors = [
         "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#8E44AD",
-        "#E67E22", "#2ECC71", "#3498DB", "#E74C3C", "#95A5A6",
+        "#E67E22", "#180501", "#3498DB", "#E74C3C", "#95A5A6",
         "#9B59B6", "#34495E", "#16A085", "#27AE60", "#2980B9",
         "#1ABC9C", "#D35400", "#C0392B", "#7F8C8D", "#F39C12",
         "#2C3E50", "#BDC3C7", "#7E57C2", "#5C6BC0", "#42A5F5",
