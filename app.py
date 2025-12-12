@@ -11,7 +11,7 @@ def squares():
         "#E67E22", "#2ECC71", "#3498DB", "#E74C3C", "#95A5A6",
         "#9B59B6", "#34495E", "#16A085", "#27AE60", "#2980B9",
         "#1ABC9C", "#D35400", "#C0392B", "#7F8C8D", "#F39C12",
-        "#FF0000", "#BDC3C7", "#7E57C2", "#5C6BC0", "#42A5F5",
+        "#E92095", "#BDC3C7", "#7E57C2", "#5C6BC0", "#42A5F5",
         "#26A69A", "#66BB6A", "#FFEE58", "#FF7043", "#8D6E63"
     ]
 
@@ -26,6 +26,7 @@ def squares():
     # 3. Combine colors and texts into pairs for easier templating
     #    The zip function pairs the first color with the first text, and so on.
     squares_data = zip(colors, texts)
+
 
     # The HTML template now iterates through the combined 'squares_data'
     html = """
