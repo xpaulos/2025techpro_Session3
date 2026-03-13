@@ -36,14 +36,22 @@ def squares():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Colored Squares with Text</title>
         <style>
-            body { font-family: sans-serif; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; padding: 20px; }
-            h1 { color: #333; }
-            .container { display: flex; flex-wrap: wrap; width: 650px; justify-content: center; border: 1px solid #ccc; padding: 10px; background-color: #fff; border-radius: 8px; }
-            .square { width: 100px; height: 100px; margin: 5px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: white; text-shadow: 1px 1px 2px black; text-align: center; padding: 5px; box-sizing: border-box; }
-        </style>
+    body { font-family: sans-serif; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+
+    h1 {
+        color: #2E86DE;
+        font-weight: bold;
+        font-size: 36px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container { display: flex; flex-wrap: wrap; width: 650px; justify-content: center; border: 1px solid #ccc; padding: 10px; background-color: #fff; border-radius: 8px; }
+
+    .square { width: 100px; height: 100px; margin: 5px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: white; text-shadow: 1px 1px 2px black; text-align: center; padding: 5px; box-sizing: border-box; }
+</style>
     </head>
     <body>
-        <h1>Squares with Colors and Text from Config</h1>
+        <h1>Squares with Colors </h1>
         <div class="container">
             {% for color, text in squares_data %}
             <div class="square" style="background-color: {{ color }};" title="{{ color }}">
