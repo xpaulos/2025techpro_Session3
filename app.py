@@ -11,9 +11,9 @@ def squares():
         "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6",
         "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA",
         "#9B59B6", "#34495E", "#16A085", "#27AE60", "#2980B9",
-        "#1ABC9C", "#D35400", "#C0392B", "#43A047", "#F39C12",
-        "#2C3E50", "#BDC3C7", "#7E57C2", "#AD1457", "#42A5F5",
-        "#26A69A", "#66BB6A", "#FFEE58", "#FFCA28", "#8D6E63"
+        "#1ABC9C", "#66BB6A", "#C0392B", "#7F8C8D", "#F39C12",
+        "#2C3E50", "#FFEE58", "#7E57C2", "#5C6BC0", "#42A5F5",
+        "#26A69A", "#66BB6A", "#FFEE58", "#FF7043", "#8D6E63"
     ]
 
     # 2. Load the texts from the config.json file
