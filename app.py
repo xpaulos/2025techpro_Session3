@@ -7,7 +7,8 @@ app = Flask(__name__)
 def squares():
     # 1. Define the list of fixed hex color codes
     colors = [
-        "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#8E44AD",
+        "#FF5733", "#FF5733", "#FF5733", "#FF5733",  "#FF5733",
+        "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6",
         "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA",
         "#9B59B6", "#34495E", "#16A085", "#27AE60", "#2980B9",
         "#1ABC9C", "#D35400", "#C0392B", "#7F8C8D", "#F39C12",
@@ -36,14 +37,22 @@ def squares():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Colored Squares with Text</title>
         <style>
-            body { font-family: sans-serif; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; padding: 20px; }
-            h1 { color: #333; }
-            .container { display: flex; flex-wrap: wrap; width: 650px; justify-content: center; border: 1px solid #ccc; padding: 10px; background-color: #fff; border-radius: 8px; }
-            .square { width: 100px; height: 100px; margin: 5px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: white; text-shadow: 1px 1px 2px black; text-align: center; padding: 5px; box-sizing: border-box; }
-        </style>
+    body { font-family: sans-serif; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+
+    h1 {
+        color: #2E86DE;
+        font-weight: bold;
+        font-size: 36px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container { display: flex; flex-wrap: wrap; width: 650px; justify-content: center; border: 1px solid #ccc; padding: 10px; background-color: #fff; border-radius: 8px; }
+
+    .square { width: 100px; height: 100px; margin: 5px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: white; text-shadow: 1px 1px 2px black; text-align: center; padding: 5px; box-sizing: border-box; }
+</style>
     </head>
     <body>
-        <h1>Squares with Colors and Text from Config</h1>
+        <h1>Squares with Colors </h1>
         <div class="container">
             {% for color, text in squares_data %}
             <div class="square" style="background-color: {{ color }};" title="{{ color }}">
