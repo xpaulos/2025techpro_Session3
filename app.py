@@ -7,7 +7,8 @@ app = Flask(__name__)
 def squares():
     # 1. Define the list of fixed hex color codes
     colors = [
-        "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#8E44AD",
+        "#FF5733", "#FF5733", "#FF5733", "#FF5733",  "#FF5733",
+        "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6", "#9B59B6",
         "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA", "#EFC3CA",
         "#9B59B6", "#34495E", "#16A085", "#27AE60", "#2980B9",
         "#1ABC9C", "#D35400", "#C0392B", "#43A047", "#F39C12",
